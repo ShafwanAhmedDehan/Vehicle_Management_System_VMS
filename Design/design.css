@@ -1,0 +1,540 @@
+body
+{
+	background-image: linear-gradient(to right, #000010, #434343);
+}
+
+.id01 header
+{
+	 position: absolute; 
+	 left: 0; 
+	 top: 0;
+	 width: 100%;
+}
+
+.id01 footer
+{
+	 position: fixed; 
+	 left: 0; 
+	 bottom: 0; 
+	 width: 100%; 
+}
+
+.id100 fieldset
+{
+	width: 450px; 
+	padding: 30px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	border-color: whitesmoke;
+	
+}
+
+.id100 legend
+{
+	font-size: 20px;
+	color: white;
+}
+
+.id02 a:link
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	transition: color 0.5s linear 0s;
+}
+
+.id02 a:visited
+{
+	color: white;
+	text-decoration: none;
+	transition: font-size 1s ease-in-out 1s;
+}
+
+.id02 a:hover
+{
+	text-decoration: underline;
+	font-size: 30px;
+	color: red;
+}
+
+.id02 b
+{
+	color: white;
+}
+
+.id100 input[type="text"]
+{
+	border: none;
+	border-radius: 4px;
+	border-bottom: 3px solid red;
+}
+
+.id100 input[type="Password"]
+{
+	border: none;
+	border-radius: 4px;
+	border-bottom: 3px solid red;
+}
+
+ .id100 input[type="submit"]:hover
+ {
+ 	background-color: #04AA6D;
+ 	color: white;
+ }
+
+ 
+ .squareshape01
+ {
+ 	position: relative;
+ 	width: 600px;
+ 	height: 230px;
+ 	background: linear-gradient(135deg, #000000, #111111, #860000);
+ 	border-radius: 8px;
+ }
+
+.id100 label
+{
+	color: white;
+}
+ 
+.id100 b
+{
+	color: white;
+	text-decoration: none;	
+}
+
+.id04 b:hover
+{
+	color: hotpink;
+}
+
+.id05 table
+{
+	border: none;
+	border-collapse: collapse;
+	border-color: rgb(131, 233, 213); 
+	width: 100%;
+}
+
+.id05 tr
+{
+	background-image: linear-gradient(to left, #870000, #190A05);
+	opacity: 0.85;
+}
+
+.id07 b
+{
+	color: rgb(237, 29, 36);
+}
+
+.id08 fieldset
+{
+	width: 200px; 
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	border-color: whitesmoke;
+}
+
+.id09 fieldset
+{
+	width: 350px; 
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	border-color: whitesmoke;
+}
+
+.id10 fieldset
+{
+	width: 500px; 
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	border-color: whitesmoke;
+}
+
+.id11 fieldset
+{
+	width: 400px; 
+	padding: 20px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	border-color: whitesmoke;
+
+}
+
+@keyframes id12fieldset
+{
+	from { background-image: linear-gradient(135deg, #000000, #111111, #860000); }
+	to { background-image: linear-gradient(135deg, #860000, #111111, #000000); }
+}
+
+.id12 fieldset
+{
+	background-image: linear-gradient(135deg, #000000, #111111, #860000);
+	width: 700px; 
+	padding: 20px;
+	border-bottom: 4px;
+	border-bottom-color: whitesmoke;
+	border-radius: 8px;
+	border-top: 2px;
+	border-top-color: whitesmoke;
+	animation-name: id12fieldset;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.id13 b
+{
+	color: floralwhite;
+	font-size: 20px;
+}
+
+.id13 b:hover
+{
+	color: rgb(237, 29, 36);
+	font-size: 20px;
+}
+
+.navigation
+{
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 60px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.navigation button
+{
+	float: right;
+	color: darkred;
+	background-color: whitesmoke;  
+	border-radius: 5px; 
+	text-align: center; 
+	width: 100px; 
+	border: none; 
+	font-size: 20px; 
+	padding: 10px; 
+	cursor: pointer;
+}
+
+.navigation button:hover
+{
+	background-color: red;
+	color: whitesmoke;
+}
+
+.boxinfo
+{
+	position: relative;
+	top: 180px;
+ 	width: 500px;
+ 	height: 400px;
+ 	background: linear-gradient(135deg, #000000, #111111, #860000);
+ 	border-radius: 8px;
+ 	padding: 10px;
+ 	animation-name: id12fieldset;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.id14 button
+{
+	background-color: transparent; 
+	color: whitesmoke; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 100px; 
+	border: none; 
+	font-size: 20px; 
+	padding: 10px; 
+	cursor: pointer;
+}
+
+.id14 button:hover
+{
+	background-color: #55C2DA;
+	color: black;
+}
+
+.id15 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 18px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id15 button:hover
+{
+	background-color: #55C2DA;
+	color: black;
+}
+
+.id16 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 230px; 
+	border: none; 
+	font-size: 16px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: white;
+}
+
+.id16 button:hover
+{
+	background-color: #55C2DA;
+	color: black;
+}
+
+.id17 input[type="text"]
+{
+	width: 50px;
+	height: 25px;
+	border: none;
+	border-radius: 4px;
+	transition: width 0.4s ease-in-out;
+	background-color: whitesmoke;
+}
+
+.id17 input[type="text"]:focus
+{
+	width: 40%;
+	background-color: rgb(229, 243, 250);
+}
+
+.id17 input[type="submit"]
+{
+	width: 60px;
+	height: 25px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.id17 input[type="submit"]:hover
+{
+	background-color: rgb(85, 196, 68);
+	color: white;
+}
+
+.id18 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 100px; 
+	font-size: 20px; 
+	border-color: whitesmoke red;
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id18 button:hover
+{
+	background-color: rgb(230, 15, 15);
+	border-color: whitesmoke;
+}
+
+.id19 textarea
+{
+	border-radius: 5px;
+	border: none;
+}
+
+.id19 input[type="submit"]
+{
+	height: 30px;
+	width: 70px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+	background-color: floralwhite;
+}
+
+.id19 input[type="submit"]:hover
+{
+	background-color: rgb(85, 196, 68);
+	color: white;
+}
+
+.id20 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 18px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id20 button:hover
+{
+	background-color: rgb(134, 1, 1);
+	color: white;
+}
+
+.id21 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 18px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id21 button:hover
+{
+	background-color: rgb(134, 1, 1);
+	color: white;
+}
+
+.id22 button
+{
+	background-color: transparent;
+	border-radius: 5px; 
+	text-align: center; 
+	width: 100px; 
+	border: none; 
+	font-size: 20px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id22 button:hover
+{
+	background-color: rgb(134, 1, 1);
+	color: white;
+}
+
+.id23 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 17px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id23 button:hover
+{
+	background-color: rgb(128, 0, 128);
+	color: white;
+}
+
+.id24 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 18px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id24 button:hover
+{
+	background-color: rgb(128, 0, 128);
+	color: white;
+}
+
+.id25 button
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 100px; 
+	border: none; 
+	font-size: 20px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.id25 button:hover
+{
+	background-color: rgb(128, 0, 128);
+	color: white;
+}
+
+.idjs01 span
+{
+	color: rgb(237, 29, 36);
+	font-weight: bold;
+}
+
+#v_info
+{
+	background-color: transparent; 
+	border-radius: 5px; 
+	text-align: center; 
+	width: 150px; 
+	border: none; 
+	font-size: 16px; 
+	padding: 10px; 
+	cursor: pointer;
+	color: white;
+}
+
+#v_info:hover
+{
+	background-color: #55C2DA;
+	color: black;
+}
+
+.id26 table
+{
+	color: whitesmoke;
+	width: 100%;
+	border: none;
+	text-align: center;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+.id26 th
+{
+	background: #000000;
+}
+
+.id26 td
+{
+	background: floralwhite;
+	color: black;
+	font-weight: bold;
+}
